@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-    --White: hsl(0, 0%, 100%);
-    --Stone100: hsl(30, 54%, 90%);
-    --Stone150: hsl(30, 18%, 87%);
-    --Stone600: hsl(30, 10%, 34%);
-    --Stone900: hsl(24, 5%, 18%);
-    --Brown800: hsl(14, 45%, 36%);
-    --Rose800: hsl(332, 51%, 32%);
-    --Rose50: hsl(330, 100%, 98%);
+--White: hsl(0, 0%, 100%);
+--Stone100: hsl(30, 54%, 90%);
+--Stone150: hsl(30, 18%, 87%);
+--Stone600: hsl(30, 10%, 34%);
+--Stone900: hsl(24, 5%, 18%);
+--Brown800: hsl(14, 45%, 36%);
+--Rose800: hsl(332, 51%, 32%);
+--Rose50: hsl(330, 100%, 98%);
 }
 
 body {
-    background-color: var(--Stone100);
+    background-color:var(--Stone100);
     margin-top: 70px;
     font-family: Outfit;
 
@@ -36,7 +36,7 @@ main {
     background-color: var(--White);
     border-radius: 20px;
     padding-bottom: 30px;
-}
+}   
 
 .heading {
     font-family: "Young Serif";
@@ -119,60 +119,59 @@ footer {
 
 @media screen and (max-width: 602px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-        height: 100%;
+* {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+body {
+            height: auto;
+            width: auto;
+            background-color: var(--White);
+            font-family: Outfit;
+            margin-top: 0;    
+        }
+
+img {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    position: relative;
+    border-radius: 0px;
     }
 
-    body {
-        height: auto;
-        width: auto;
-        background-color: var(--White);
-        font-family: Outfit;
-        margin-top: 0;
-    }
+.heading{
+    margin-top: 20px;
+}
 
-    img {
-        display: block;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        top: 0;
-        position: relative;
-        border-radius: 0px;
-    }
+span.sec-heading {
+    margin-top: 10px;
+}
 
-    .heading {
-        margin-top: 20px;
-    }
+.prep-heading {
+    margin: 5px;
+}
 
-    span.sec-heading {
-        margin-top: 10px;
-    }
+.prep {
+    width: auto;
+    height: auto;
+}
 
-    .prep-heading {
-        margin: 5px;
-    }
+ul,
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;;
+}
 
-    .prep {
-        width: auto;
-        height: auto;
-    }
-
-    ul,
-    ol {
-        margin-left: 20px;
-        margin-bottom: 20px;
-        ;
-    }
-
-    li {
-        padding-left: 25px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+li {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 }
